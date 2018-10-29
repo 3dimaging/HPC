@@ -1,6 +1,6 @@
 # HPC
 
-# for sbatch
+# for sbatch (note: no blank around "=" sign)
 
 #!/bin/bash
 
