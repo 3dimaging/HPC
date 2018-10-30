@@ -19,4 +19,6 @@
 	cd ~/Documents/Figure5/
 	Rscript F5B220PCF2.R
 	
-sinteractive  --cpus-per-task=16 --gres=gpu:p100:1 --mem=20g --time=4:00:00
+sinteractive  --cpus-per-task=14 --gres=gpu:p100:1 --mem=20g --time=4:00:00
+
+note: 14 cpus are attached to 1 GPU, if the number is over than, no resouce will be available. Memory can be 80G.
